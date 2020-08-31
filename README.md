@@ -8,6 +8,8 @@
 
 - [Prototype](https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67)
 
+- [dot](http://www.ministory.net/xe/?mid=it_story&category=3486&page=2&document_srl=6115)
+
 - [apply, call](https://medium.com/sjk5766/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-apply-call-%ED%95%A8%EC%88%98-f26bb54e12d5)
 
 - - -
