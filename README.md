@@ -6,6 +6,8 @@
 
 - this - 일반적으로 window, cf) 이벤트리스너, 메소드 (but메소드 안의 중첩함수에선 window)
 
+- [Prototype](https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67)
+
 - - -
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
