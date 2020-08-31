@@ -1,15 +1,10 @@
 # LIBRARY
-
-</br>
-
 ## JS
 - [var,let,const](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
 
 - [네임스페이스](http://www.nextree.co.kr/p7650/)
 
 - this - 일반적으로 window, cf) 이벤트리스너, 메소드 (but메소드 안의 중첩함수에선 window)
-
-</br>
 
 - - -
 
