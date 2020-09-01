@@ -12,6 +12,30 @@
 
 - [apply, call](https://medium.com/sjk5766/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-apply-call-%ED%95%A8%EC%88%98-f26bb54e12d5)
 
+- details>
+<summary>기본DOM API</summary>
+	
+<div markdown="1">
+선택자 셀렉터      document.querySelector("#Id") / document.querySelectorAll(".Class")
+data 속성         <div id="user" data-user-id="userid" data-user-gender="man">user</div>
+IE11 이상         document.querySelector("#user").dataset.userGender = "man"
+IE11 미만         document.querySelector("#user").getAttribute("data-user-gender")
+
+이벤트            document.querySelector("#user").addEventListener("click", event => {       })
+                 document.querySelector("#user").click()
+IE11이상         const event = new CustomEvent("@event1", { weight: "68kg" })    
+                   document.dispatchEvent(event)         
+IE11미만          const event = document.createEvent("Event")
+                event.initCustomeEvent("@click", true, false, "68kg")
+                document.dispatchEvent(event)
+받는쪽           document.querySelector("a").addEventListener("@click", evt => {
+                 evt.detail // 'some data'
+                })
+
+</div>
+
+</details>
+
 - - -
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
