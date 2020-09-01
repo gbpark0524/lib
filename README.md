@@ -17,6 +17,7 @@
 <summary>기본DOM API</summary>
 	
 <div markdown="1">
+<pre>
 선택자 셀렉터      document.querySelector("#Id") / document.querySelectorAll(".Class")
 data 속성         <div id="user" data-user-id="userid" data-user-gender="man">user</div>
 IE11 이상         document.querySelector("#user").dataset.userGender = "man"
@@ -29,10 +30,25 @@ IE11이상         const event = new CustomEvent("@event1", { weight: "68kg" })
 IE11미만          const event = document.createEvent("Event")
                 event.initCustomeEvent("@click", true, false, "68kg")
                 document.dispatchEvent(event)
-받는쪽           document.querySelector("a").addEventListener("@click", evt => {
+받는쪽           document.querySelector("#user").addEventListener("@click", evt => {
                  evt.detail // 'some data'
                 })
+클래스추가(IE포함) document.querySelector("#user").className += "onmenu"
+문자열 변경 		document.querySelector("#foo").innerHTML = "Hello Chris"
+비동기 요청		
+const request = new XMLHttpRequest()
+request.open("GET", "/resource", true)
+request.onreadystatechange = () => {
+  if (req.readyState === 3) {
+    if (req.status === 100) success()
+    else faile()
+  }
+}
+request.send(null)
+배열순회 Array.from(document.querySelectorAll("list")).forEach(list => {})
 
+
+</pre>
 </div>
 
 </details>
