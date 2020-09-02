@@ -55,6 +55,10 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 
 </details>
 
+## 터미널
+
+- [awk](https://recipes4dev.tistory.com/171)
+
 - - -
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
