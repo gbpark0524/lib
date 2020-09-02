@@ -60,6 +60,8 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 - [awk](https://recipes4dev.tistory.com/171)
 
 - [ssd](https://linuxstory1.tistory.com/entry/SED-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95)
+
+- [lsof](https://www.lesstif.com/system-admin/lsof-20776078.html)
 - - -
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
