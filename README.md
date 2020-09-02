@@ -45,13 +45,10 @@ request.onreadystatechange = () => {
   }
 }
 request.send(null)
-배열순회 Array.from(document.querySelectorAll("list")).forEach(list => {})
-Array.prototype.forEach.call(document.querySelectorAll('.class'), function(btn) {
-    btn.addEventListener('click', function(e) {
-      console.log(1);
-    });
-  });
-
+배열순회 
+Array.from(document.querySelectorAll("li")).forEach((list,index) => {
+	console.log(index);
+});
 
 </pre>
 </div>
