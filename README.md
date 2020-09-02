@@ -62,6 +62,10 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 - [ssd(특정 문자열 찾아서 수정)](https://linuxstory1.tistory.com/entry/SED-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95)
 
 - [lsof(열려있는, 포트사용하고 있는 파일조회)](https://www.lesstif.com/system-admin/lsof-20776078.html)
+
+- [curl(파일 다운)](https://ohgyun.com/397)
+
+- [curl](https://m.blog.naver.com/javaking75/220776461230)
 - - -
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
