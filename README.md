@@ -1,7 +1,7 @@
 # LIBRARY
 
 ## JAVA
-- int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");
+- int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");	/	import java.util.Arrays;
 
 - 배열 뒤집기 : Collections.reverse(Arrays.asList(strArr));		/	import java.util.Collections;
 
