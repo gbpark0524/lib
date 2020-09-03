@@ -3,6 +3,8 @@
 ## JAVA
 - int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");
 
+- 배열 뒤집기 : Collections.reverse(Arrays.asList(strArr));		/	import java.util.Collections;
+
 - [pstmt - bind 변수](https://blog.sting.pe.kr/112)
 
 - JAVA 유니코드 공백제거 - String str =originalString.replaceAll("\\p{Z}", "");  
