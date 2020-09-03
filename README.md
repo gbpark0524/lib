@@ -69,6 +69,9 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 - - -
 - [pstmt - bind 변수](https://blog.sting.pe.kr/112)
 
+- JAVA 유니코드 공백제거 - String str =originalString.replaceAll("\\p{Z}", "");
+  trim() - String str =originalString.replaceAll("(^\\p{Z}+|\\p{Z}+$)", "");
+
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
 
 - [CentOS에서 부팅시 rc.local실행 안될때](https://stdout.tistory.com/33) - # chmod +x rc.local
