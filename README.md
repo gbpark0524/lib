@@ -1,4 +1,15 @@
 # LIBRARY
+
+## JAVA
+- int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");
+
+- [pstmt - bind 변수](https://blog.sting.pe.kr/112)
+
+- JAVA 유니코드 공백제거 - String str =originalString.replaceAll("\\p{Z}", "");  
+  trim() - String str =originalString.replaceAll("(^\\p{Z}+|\\p{Z}+$)", "");
+
+- [JAVA매크로작업](https://okky.kr/article/270141)
+
 ## JS
 - [var,let,const](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
 
@@ -67,13 +78,9 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 
 - [curl](https://m.blog.naver.com/javaking75/220776461230)
 - - -
-- [pstmt - bind 변수](https://blog.sting.pe.kr/112)
-
-- JAVA 유니코드 공백제거 - String str =originalString.replaceAll("\\p{Z}", "");  
-  trim() - String str =originalString.replaceAll("(^\\p{Z}+|\\p{Z}+$)", "");
 
 - [정규표현식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D)
 
 - [CentOS에서 부팅시 rc.local실행 안될때](https://stdout.tistory.com/33) - # chmod +x rc.local
 
-- [JAVA매크로작업](https://okky.kr/article/270141)
+
