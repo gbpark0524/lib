@@ -3,7 +3,9 @@
 - import java.util.Arrays;
 ```
 - 오름차순 '배열'을 2진탐색으로 해당index출력
+```java
   Arrays.binarySearch(arr, 26);
+  ```
 - 특정 길이만큼 배열 복사 `길이가 더 길경우 기본값으로 채워짐!`
 ```java
   int[] arr2 = Arrays.copyOf(arr1, 3);
