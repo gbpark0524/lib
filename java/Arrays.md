@@ -26,10 +26,13 @@ Arrays.sort(arr);
 ```java
 Arrays.equals(arr,arr2);
 ```
-- 자바 배열을 list로 변환  
+- 자바 배열을 list로 변환   '그냥 aslist는 arrays의 private정적 클래스 이므로 add가 없음'
 ```java
-List<Integer> list = Arrays.asList(arr);
+ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(arr));
 ```
-
+- 배열의 특정값 확인
+```java
+Arrays.asList(arr).contains(targetValue);
+```
   
   
