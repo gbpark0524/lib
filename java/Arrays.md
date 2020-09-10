@@ -22,8 +22,14 @@ Arrays.fill(arr, 7);
 ```java
 Arrays.sort(arr);
 ```
-
-
+-  배열이 같은지 비교
+```java
+Arrays.equals(arr,arr2);
+```
+- 자바 배열을 list로 변환  
+```java
+List<Integer> list = Arrays.asList(arr);
+```
 
   
   
