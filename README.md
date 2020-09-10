@@ -14,6 +14,7 @@
 
 - [JAVA매크로작업](https://okky.kr/article/270141)
 
+- [Enum 활용](https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html)
 ## JS
 - [var,let,const](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
 
