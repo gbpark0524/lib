@@ -1,6 +1,5 @@
 #Enum  
-'''Java
-
+```java
 enum Rainbow {
 
     RED(3), ORANGE(10), YELLOW(21), GREEN(5), BLUE(1), INDIGO(-1), VIOLET(-11);
@@ -15,4 +14,4 @@ enum Rainbow {
 
 }
 
-'''
+```
