@@ -1,9 +1,9 @@
 # LIBRARY
 
 ## JAVA
-- int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");	/	import java.util.Arrays;
+- [list 메소드 정리](https://github.com/gbpark0524/lib/blob/master/java_lsit.md)
 
-- 배열 뒤집기 : Collections.reverse(Arrays.asList(strArr));		/	import java.util.Collections;
+- int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");	/	import java.util.Arrays;
 
 - [pstmt - bind 변수](https://blog.sting.pe.kr/112)
 
