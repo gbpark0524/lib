@@ -1,5 +1,5 @@
 #Enum  
-'''{.java}
+'''Java
 
 enum Rainbow {
 
