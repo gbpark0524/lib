@@ -16,7 +16,7 @@
 
 - [Enum 활용](https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html)
 
-- 긴 문자열을 붙여야 할 경우 --> spring builder가 효과적 
+- 긴 문자열을 붙여야 할 경우 --> StringBuilder가 효과적 
 ```java
 StringBuilder sb = new StringBuilder();
 sb.append("ABC");
