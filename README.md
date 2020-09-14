@@ -15,6 +15,13 @@
 - [JAVA매크로작업](https://okky.kr/article/270141)
 
 - [Enum 활용](https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html)
+
+- 긴 문자열을 붙여야 할 경우 --> spring builder가 효과적 
+```java
+StringBuilder sb = new StringBuilder();
+sb.append("ABC");
+sb.append("DEF");
+```
 ## JS
 - [var,let,const](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
 
