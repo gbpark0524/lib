@@ -26,7 +26,7 @@ Arrays.sort(arr);
 ```java
 Arrays.equals(arr,arr2);
 ```
-- 자바 배열을 arraylist로 변환   '그냥 aslist는 arrays의 private정적 클래스 이므로 add가 없음'
+- 자바 배열을 arraylist로 변환   '그냥 aslist는 arrays의 private정적 클래스 이므로 add가 없음
 ```java
 import java.util.ArrayList;
 ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(arr));
