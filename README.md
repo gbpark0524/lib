@@ -1,7 +1,7 @@
 # LIBRARY
 
 ## JAVA
-- [list 메소드 정리](https://github.com/gbpark0524/lib/blob/master/java/lsit.md)
+- [Arrays](https://github.com/gbpark0524/lib/blob/master/java/Arrays.md)
 
 - int배열->String배열 : String[] a=Arrays.toString(nums).split("[\\[\\]]")[1].split(", ");	/	import java.util.Arrays;
 
