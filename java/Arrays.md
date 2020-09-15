@@ -30,6 +30,11 @@ Arrays.equals(arr,arr2);
 ```java
 import java.util.ArrayList;
 ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(arr));
+정수일경우 int[]와의 차이때문에 
+List<Integer> list = new ArrayList<>();
+for(int i = 0; i < numbers.length; i++) {
+  list.add(numbers[i]);
+}
 ```
 - 배열의 특정값 확인
 ```java
