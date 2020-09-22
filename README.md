@@ -91,6 +91,7 @@ Array.from(document.querySelectorAll("li")).forEach((list,index) => {
 - 특정 포트번호 조회
 ```bash
 netstat -nap | grep 9090
+lsof -i -nP | grep LISTEN | awk '{print $(NF-1)" "$1}' | sort -u
 ```
 - [curl(파일 다운)](https://ohgyun.com/397)
 
