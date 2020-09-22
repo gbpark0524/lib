@@ -9,3 +9,7 @@ Collections.sort(list, (a, b) -> {
   return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as));
  });
 ```
+- 내림차순 sort
+```java
+Collections.sort(list, Collections.reverseOrder());
+```
