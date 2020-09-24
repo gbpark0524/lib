@@ -37,6 +37,33 @@ sb.append("DEF");
 
 - [NODE정리](https://begindeveloper.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8DOM-%EB%85%B8%EB%93%9C-%EB%8B%A4%EB%A3%A8%EA%B8%B0)
 
+- 자식노드 text거르기
+```js
+var lastNode;
+
+function findLastChild(parentNode) {
+
+    lastNode = parentNode.lastChild;
+
+    while (lastNode.nodeType != 1) {
+
+        lastNode = lastNode.previousSibling;
+
+    }
+
+}
+
+function printLastChild() {
+
+    var parentNode = document.getElementById("parentNode");
+
+    findLastChild(parentNode);
+
+    document.getElementById("nodename").innerHTML = lastNode.nodeName;
+
+}
+```
+
 <details>
 
 <summary>기본DOM API</summary>
