@@ -36,6 +36,11 @@ for(int i = 0; i < numbers.length; i++) {
   list.add(numbers[i]);
 }
 ```
+- list를 배열로
+```java
+arrayList.toArray(new String[arrayList.size()]);
+arrayList.toArray(new String[0]); //자동으로 커짐
+```
 - 배열의 특정값 확인
 ```java
 Arrays.asList(arr).contains(targetValue);
