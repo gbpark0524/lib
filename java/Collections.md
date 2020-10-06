@@ -24,6 +24,11 @@ Collections.shuffle(arr);
 System.out.println(Collections.binarySearch(arr, 44));
 //정확한 값이 없을 경우 사이의 값을 -로 반환(-1,-2,-3,-4...)
 ```
+- 서로소
+```java
+Collections.disjoint(mylist1, mylist2); //서로소 이면 true반환
+```
+
 #Stack
 - 선언 
 ```java
