@@ -28,7 +28,12 @@ System.out.println(Collections.binarySearch(arr, 44));
 ```java
 Collections.disjoint(mylist1, mylist2); //서로소 이면 true반환
 ```
+- collector 복사
+```java
+Collections.copy(copiedList, List); //복사 대상의 사이즈가 더 크거나 같아야 함. shallowCopy 이미 다른값이 들어있는 col에 덮을때 사용
+copiedList.addAll(List); //모든항 추가
 
+```
 #Stack
 - 선언 
 ```java
