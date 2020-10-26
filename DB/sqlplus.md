@@ -28,7 +28,7 @@ STARTUP UPGRADE;
 alter system set max_string_size=EXTENDED;
 @?/rdbms/admin/utl32k.sql
 ```
-- 찾기?
+- 칼럼 찾기
 ```sql
 SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('컬럼명');
 ```
