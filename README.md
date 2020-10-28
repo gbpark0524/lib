@@ -133,4 +133,8 @@ lsof -i -nP | grep LISTEN | awk '{print $(NF-1)" "$1}' | sort -u
 
 - [CentOS에서 부팅시 rc.local실행 안될때](https://stdout.tistory.com/33) - # chmod +x rc.local
 
+- 칼럼찾기
+```sql
+SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('컬럼명');
+```
 
