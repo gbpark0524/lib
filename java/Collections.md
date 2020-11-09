@@ -55,8 +55,12 @@ Deque<Integer> qu = new ArrayDeque<Integer>();
 ```
 - 메소드
 ```java
+// 값이없을시 예외를 던짐
 qu.add();
-qu.peek();
-qu.poll(); //반환 및 제거
 qu.remove();
+qu.element();
+// 값이없을시 false 반환
+qu.offer();
+qu.poll(); //반환 및 제거
+qu.peek();
 ```
