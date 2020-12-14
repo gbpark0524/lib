@@ -1,4 +1,6 @@
 ## JAVA
+- [inputstream](https://github.com/gbpark0524/lib/blob/master/java/inputstream.md)
+
 - [Collections](https://github.com/gbpark0524/lib/blob/master/java/Collections.md)
 
 - [Arrays](https://github.com/gbpark0524/lib/blob/master/java/Arrays.md)
