@@ -1,4 +1,22 @@
 ```java
+Arrays.sort(jobs, new Comparator<int[]>() {
+	@Override
+	public int compare(int[] o1, int[] o2) {
+			return o1[0]-o2[0];
+	}
+});
+
+		
+PriorityQueue<Disk> priorityQueue = new PriorityQueue<>(new Comparator<Disk>() {
+	@Override
+	public int compare(Disk d1, Disk d2) {
+		return d1.getWorking_time() <= d2.getWorking_time() ? -1 : 1 ;
+	}
+});
+```
+
+
+```java
 import java.io.Console;
 import java.util.ArrayList;
 import java.util.Comparator;
